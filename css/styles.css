@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    max-width: 496p;
+    max-width: 496px;
 }
 
 .button {
@@ -237,7 +237,7 @@ img {
 .third-section {
     padding: 120px 0;
 }
-.container-our-team {
+.container-ourteam {
     padding: 32px 0;
 }
 .ourteam-caption {
@@ -255,6 +255,7 @@ img {
 }
 .our-portfolio-link {
     width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .container-our-portfolio {
     padding: 32px 16px;
@@ -262,4 +263,10 @@ img {
     border-top: none;
     margin-bottom: 8px;
 
+}
+.footer-logo {
+    display: inline-block;
+}
+.visuaaly-hidden {
+    display: none;
 }
