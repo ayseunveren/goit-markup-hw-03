@@ -268,5 +268,8 @@ img {
     display: inline-block;
 }
 .visuaaly-hidden {
-    display: none;
+    visibility: hidden;
+}
+.link {
+    padding: 24px 0;
 }
