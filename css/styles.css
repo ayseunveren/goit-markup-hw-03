@@ -185,7 +185,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -219,7 +218,7 @@ img {
     display: flex;
     gap: 40px;
 }
-.link {
+li.link {
     padding: 24px 0;
 }
 .first-section {
@@ -255,9 +254,9 @@ img {
     row-gap: 48px;
 }
 .our-portfolio-link {
-    flex-basis: calc((100% - 72px) / 4);
     flex: 1;
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .container-our-portfolio {
     padding: 32px 16px;
@@ -269,17 +268,16 @@ img {
 .footer-logo {
     display: inline-block;
 }
-.visuaaly-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .link {
     padding: 24px 0;
