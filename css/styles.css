@@ -186,6 +186,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
@@ -218,7 +219,7 @@ img {
     display: flex;
     gap: 40px;
 }
-li.link {
+.link {
     padding: 24px 0;
 }
 .first-section {
@@ -256,7 +257,7 @@ li.link {
 .our-portfolio-link {
     flex: 1;
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .container-our-portfolio {
     padding: 32px 16px;
@@ -270,14 +271,7 @@ li.link {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+    display: none;
 }
 .link {
     padding: 24px 0;
