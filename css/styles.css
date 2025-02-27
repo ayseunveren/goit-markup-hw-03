@@ -186,7 +186,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .footer-text {
@@ -218,6 +217,7 @@ img {
 .unordered-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .link {
     padding: 24px 0;
@@ -268,6 +268,8 @@ img {
 }
 .footer-logo {
     display: inline-block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .visually-hidden {
