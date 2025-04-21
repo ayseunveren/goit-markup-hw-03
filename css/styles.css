@@ -19,7 +19,7 @@ img {
     margin: 0;
 }
 
-/* bağlantı ve butonlar */
+/* bağlantı, buton ve img */
 
 header a {
     text-decoration: none;
@@ -33,6 +33,7 @@ header a {
     text-align: center;
     width: 169px;
     height: 56px;
+    border: none;
 }
 .button:hover {
     background: rgba(64, 75, 191, 1);
@@ -68,6 +69,9 @@ header a {
     color:rgba(244, 244, 253, 1);
 }
 
+.cont-3 img {
+    display: block;
+}
 
 /* h1, h2, h3 ve p */
 .headline1 {
@@ -197,6 +201,12 @@ header a {
 
 .list-ourteam {
     width: calc ((100% - 96px) / 4);
+}
+
+.list-ourteam {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .cont-4 {
